@@ -1,0 +1,37 @@
+{
+  "project": "05_invoice_review_automation",
+  "verified_at_utc": "2026-10-01",
+  "environment": {
+    "python": "3.12.14",
+    "scikit_learn": "1.8.0",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "joblib": "1.5.3"
+  },
+  "training_or_index_build": "passed",
+  "demo_cli": "passed",
+  "unit_and_transport_tests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "real_http_sample_routes": {
+    "passed": 5,
+    "failed": 0
+  },
+  "javascript_dom_with_real_local_http": {
+    "passed": 5,
+    "failed": 0,
+    "method": "jsdom DOM + live HTTP (not visual browser QA)"
+  },
+  "notebook_code_cells_in_fresh_process": "passed",
+  "json_workflow_structure": "passed",
+  "not_executed": [
+    "Full visual rendering in a browser: browser binary download unavailable. DOM interaction was tested with jsdom.",
+    "n8n import and workflow execution",
+    "A real local or hosted LLM",
+    "Docker image build",
+    "GitHub Actions runner",
+    "A clean Windows installation"
+  ],
+  "note": "These checks do not establish production readiness or performance on real customer data."
+}

@@ -1,0 +1,7 @@
+Invoice: INV-1001
+Vendor: Demo Supplies
+Currency: EGP
+Subtotal: 1000.00
+Tax: 140.00
+Total: 1140.00
+Items: 4

@@ -1,0 +1,47 @@
+[
+  {
+    "endpoint": "/process",
+    "status": 200,
+    "result_keys": [
+      "duplicate",
+      "invoice",
+      "anomaly"
+    ]
+  },
+  {
+    "endpoint": "/report",
+    "status": 200,
+    "result_keys": [
+      "training_data",
+      "algorithm",
+      "training_flag_rate",
+      "features",
+      "limitations"
+    ]
+  },
+  {
+    "endpoint": "/export",
+    "status": 200,
+    "result_keys": [
+      "csv"
+    ]
+  },
+  {
+    "endpoint": "/invoices",
+    "status": 200,
+    "result_keys": [
+      "invoices",
+      "audit"
+    ]
+  },
+  {
+    "endpoint": "/review",
+    "status": 200,
+    "result_keys": [
+      "invoice_id",
+      "status",
+      "reviewer",
+      "note"
+    ]
+  }
+]

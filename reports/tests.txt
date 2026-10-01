@@ -1,0 +1,22 @@
+test_decimal_reconciliation (test_core.DatabaseTests.test_decimal_reconciliation) ... ok
+test_duplicate_identity_across_request_ids (test_core.DatabaseTests.test_duplicate_identity_across_request_ids) ... ok
+test_human_review_audit_and_finality (test_core.DatabaseTests.test_human_review_audit_and_finality) ... ok
+test_llm_malformed_fields (test_core.DatabaseTests.test_llm_malformed_fields) ... ok
+test_missing_fields_and_currency (test_core.DatabaseTests.test_missing_fields_and_currency) ... ok
+test_money_rejects_invalid_precision (test_core.DatabaseTests.test_money_rejects_invalid_precision) ... ok
+test_same_id_changed_payload_rejected (test_core.DatabaseTests.test_same_id_changed_payload_rejected) ... ok
+test_total_mismatch_flag (test_core.DatabaseTests.test_total_mismatch_flag) ... ok
+Open http://127.0.0.1:0 — Ctrl+C to stop
+test_csv_formula_escaping (test_http.HTTPTests.test_csv_formula_escaping) ... ok
+test_health_and_html (test_http.HTTPTests.test_health_and_html) ... ok
+test_invalid_json_or_array_returns_400 (test_http.HTTPTests.test_invalid_json_or_array_returns_400) ... ok
+test_json_round_trip (test_http.HTTPTests.test_json_round_trip) ... ok
+test_unknown_post_returns_400 (test_http.HTTPTests.test_unknown_post_returns_400) ... ok
+test_disabled_never_calls_network (test_llm_adapter.AdapterTests.test_disabled_never_calls_network) ... ok
+test_malformed_response_fails_explicitly (test_llm_adapter.AdapterTests.test_malformed_response_fails_explicitly) ... ok
+test_openai_compatible_response (test_llm_adapter.AdapterTests.test_openai_compatible_response) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.726s
+
+OK
