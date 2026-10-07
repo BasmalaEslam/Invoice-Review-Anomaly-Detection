@@ -1,0 +1,15 @@
+{
+  "training_data": "500 generated invoices, no real invoices and no labelled fraud examples.",
+  "algorithm": "IsolationForest on log1p(total) and item count",
+  "training_flag_rate": 0.05,
+  "features": [
+    "log1p(total)",
+    "items"
+  ],
+  "limitations": [
+    "Anomaly is not fraud. No fraud accuracy or business ROI is measured.",
+    "Bundled model is illustrative. Retrain with representative single-currency invoice history before actual use.",
+    "Input is English labelled plain text, not OCR or PDF parsing. Optional LLM extraction needs review.",
+    "Human approval records a decision only; no money is moved."
+  ]
+}

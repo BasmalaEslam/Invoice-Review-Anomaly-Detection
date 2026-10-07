@@ -1,0 +1,32 @@
+{
+  "method": "jsdom DOM + live HTTP (not visual browser QA)",
+  "cases": [
+    {
+      "endpoint": "/process",
+      "status": "Completed",
+      "rendered_characters": 204
+    },
+    {
+      "endpoint": "/review",
+      "status": "Completed",
+      "rendered_characters": 0
+    },
+    {
+      "endpoint": "/invoices",
+      "status": "Completed",
+      "rendered_characters": 583
+    },
+    {
+      "endpoint": "/export",
+      "status": "Completed",
+      "rendered_characters": 79
+    },
+    {
+      "endpoint": "/report",
+      "status": "Completed",
+      "rendered_characters": 0
+    }
+  ],
+  "xss_text_escape": "passed",
+  "javascript_errors": []
+}

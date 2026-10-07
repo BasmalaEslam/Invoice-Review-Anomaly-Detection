@@ -1,0 +1,20 @@
+{
+  "duplicate": true,
+  "invoice": {
+    "id": "INV-DEMO-001",
+    "fingerprint": "5f1c344e5454b62d5af5def655d2796c7d4db086cbfcc4aa9f183e1635de5daa",
+    "raw_hash": "6ff1d8cb1d20417ccfc62d8c3a0fe717a084db75082dca30181df00b3b68f94c",
+    "fields": {
+      "invoice_number": "INV-1001",
+      "vendor": "Demo Supplies",
+      "currency": "EGP",
+      "subtotal": "1000.00",
+      "tax": "140.00",
+      "total": "1140.00",
+      "items": 4
+    },
+    "flags": [],
+    "status": "approved",
+    "created_at": "2026-10-01T09:57:06.905953+00:00"
+  }
+}

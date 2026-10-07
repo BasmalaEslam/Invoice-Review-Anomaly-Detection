@@ -1,0 +1,4 @@
+{
+  "request_id": "INV-DEMO-001",
+  "text": "Invoice: INV-1001\nVendor: Demo Supplies\nCurrency: EGP\nSubtotal: 1000.00\nTax: 140.00\nTotal: 1140.00\nItems: 4"
+}
